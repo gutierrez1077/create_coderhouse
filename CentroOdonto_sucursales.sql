@@ -1,0 +1,1 @@
+SELECT * FROM centro_odontologico.sucursales;

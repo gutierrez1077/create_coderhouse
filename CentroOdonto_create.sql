@@ -164,3 +164,15 @@ ADD Servicio_factura INT;
 ALTER TABLE facturas
 ADD CONSTRAINT fk_servicio_factura FOREIGN KEY (Servicio_factura) REFERENCES servicios(Cod_Servicio);
 
+ALTER TABLE especialidades
+MODIFY especialidad VARCHAR (50);
+
+ALTER TABLE pacientes
+MODIFY Tel_Contacto VARCHAR (50);
+
+ALTER TABLE pacientes
+MODIFY Pagos_Px DECIMAL (8,2);
+
+ALTER TABLE profesionales
+MODIFY Tel_Contacto VARCHAR (50);
+
